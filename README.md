@@ -26,8 +26,14 @@ ns-train -h
 ```
 
 ## CineGPT
+We quantize camera trajectories to sequences of tokens and adopt a GPT-based architecture to generate the tokens autoregressively. Learning trajectory and language jointly, CineGPT is capable of text-conditioned trajectory generation.
+
+Codes and model weights for CineGPT coming soon...
 
 ## Anchor Determinator
+Given a prompt describing the image rendered from an anchor point, the anchor selector chooses the best matching input image. An anchor refinement procedure further fine-tunes the anchor position.
+
+Codes and model weights for Anchor Determinator coming soon...
 
 ## LLM Prompt
 Through this [prompt](LLM_prompt/basic_prompt), we provide the LLM with detailed instructions and guidelines for tool usage to achieve the target. We include a template and examples for the LLM's responses. Check out the user-agent convesation [example](LLM_prompt/chat_example.md).
