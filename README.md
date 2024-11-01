@@ -25,6 +25,14 @@ python -m pip install -e .
 ns-train -h
 ```
 
+## CineGPT
+
+## Anchor Determinator
+
+## LLM Prompt
+Through this [LLM_prompt/prompt](basic_prompt), we provide the LLM with detailed instructions and guidelines for tool usage to achieve the target. We include a template and examples for the LLM's responses. Check out the user-agent convesation [LLM_prompt/example](chat_example.md).
+
+
 ## Citation
 If you find ChatCam useful in your research, please star consider citing:
 ```
