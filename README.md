@@ -40,7 +40,7 @@ Through this [prompt](LLM_prompt/basic_prompt), we provide the LLM with detailed
 
 
 ## Citation
-If you find ChatCam useful in your research, please star consider citing:
+If you find ChatCam useful in your research, please consider citing:
 ```
 @article{liu2024chatcam,
   title={ChatCam: Empowering Camera Control through Conversational AI},
