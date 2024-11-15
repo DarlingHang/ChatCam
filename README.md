@@ -14,14 +14,12 @@ This is the official implementation of paper:
 
 ## Installation
 ```bash
-conda create --name nerfstudio -y python=3.8
-conda activate nerfstudio
+conda create --name chatcam -y python=3.8
+conda activate chatcam
 pip install torch==1.13.1 torchvision functorch --extra-index-url https://download.pytorch.org/whl/cu117
 pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+pip install ftfy regex tqdm pillow clip
 pip install nerfstudio
-
-git clone https://github.com/kerrj/lerf
-python -m pip install -e .
 ns-train -h
 ```
 
